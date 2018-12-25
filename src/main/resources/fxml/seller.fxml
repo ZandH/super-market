@@ -8,63 +8,61 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
-<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="430.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="430.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8.0.121"
+            xmlns:fx="http://javafx.com/fxml/1">
     <ImageView fitHeight="1195.0" fitWidth="1904.0" pickOnBounds="true" preserveRatio="true">
         <image>
-            <Image url="@../../../../../../图片/java图片/gr.jpg" />
+            <Image url="@../../../../../../图片/java图片/gr.jpg"/>
         </image>
     </ImageView>
 
-    <TableView opacity="0.57" prefHeight="388.0" prefWidth="365.0" AnchorPane.bottomAnchor="81.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="959" AnchorPane.topAnchor="55.0">
+    <TableView opacity="0.51" prefHeight="388.0" prefWidth="365.0" AnchorPane.bottomAnchor="80.0"
+               AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="959" AnchorPane.topAnchor="55.0">
         <columns>
-            <TableColumn prefWidth="75.0" text="类别" />
+            <TableColumn prefWidth="75.0" text="类别"/>
         </columns>
     </TableView>
-    <HBox opacity="0.68" prefHeight="53.0" prefWidth="1894.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="10.0">
+    <HBox opacity="0.68" prefHeight="53.0" prefWidth="1894.0" AnchorPane.leftAnchor="0.0"
+          AnchorPane.rightAnchor="10.0">
 
-        <TextField AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="5.0" />
-        <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="86.0" text="查询" AnchorPane.leftAnchor="200" AnchorPane.topAnchor="0.0">
-            <font>
-                <Font size="18.0" />
-            </font></Button>
+        <TextField AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="5.0"/>
+        <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="86.0" text="查询"
+                AnchorPane.leftAnchor="200" AnchorPane.topAnchor="0.0">
+        </Button>
         <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="142.0" text="全部商品">
-            <font>
-                <Font size="18.0" />
-            </font></Button>
+        </Button>
 
     </HBox>
-    <TableView opacity="0.51" prefHeight="304.0" prefWidth="287.0" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="960" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="55.0" />
-    <Button opacity="0.77" prefHeight="81.0" prefWidth="287.0" text="结账" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0">
-        <font>
-            <Font size="24.0" />
-        </font>
+    <TableView opacity="0.51" prefHeight="304.0" prefWidth="287.0" AnchorPane.bottomAnchor="80.0"
+               AnchorPane.leftAnchor="960" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="55.0"/>
+    <Button opacity="0.77" prefHeight="81.0" prefWidth="287.0" text="结账" AnchorPane.bottomAnchor="0.0"
+            AnchorPane.rightAnchor="0.0">
     </Button>
-    <HBox alignment="TOP_RIGHT" layoutX="1.0" prefHeight="81.0" prefWidth="1577.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="326.0">
-        <children>
-            <ImageView fitHeight="81.0" fitWidth="183.0" pickOnBounds="true" preserveRatio="true">
-                <image>
-                    <Image url="/img/8.png" />
-                </image>
-            </ImageView>
-            <ImageView fitHeight="81.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-                <image>
-                    <Image url="/img/9.png" />
-                </image>
-            </ImageView>
-            <ImageView fitHeight="81.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-                <image>
-                    <Image url="/img/10.png" />
+    <HBox alignment="CENTER_RIGHT" prefHeight="81.0" prefWidth="784.0" AnchorPane.bottomAnchor="0.0"
+          AnchorPane.rightAnchor="350.0">
 
-                </image>
-            </ImageView>
-            <ImageView fitHeight="81.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-                <image>
-                    <Image url="/img/11.png" />
-                </image>
-            </ImageView>
-        </children>
+        <ImageView fitHeight="80.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="/img/8.png"/>
+            </image>
+        </ImageView>
+        <ImageView fitHeight="80.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="/img/9.png"/>
+            </image>
+        </ImageView>
+        <ImageView fitHeight="80.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="/img/10.png"/>
+            </image>
+        </ImageView>
+        <ImageView fitHeight="80.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="/img/11.png"/>
+            </image>
+        </ImageView>
+
     </HBox>
 
 </AnchorPane>
