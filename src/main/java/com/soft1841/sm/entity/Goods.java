@@ -1,5 +1,11 @@
 package com.soft1841.sm.entity;
 
+/**
+ * 商品实体类
+ *
+ * @author 屏儿
+ * 2018/12/24
+ */
 public class Goods {
     private Long id;
     private String type_id;
