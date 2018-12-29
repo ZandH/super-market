@@ -2,16 +2,31 @@ package com.soft1841.sm.entity;
 
 /**
  * 商品实体类
- *
- * @author 屏儿
- * 2018/12/24
+ * @author 杨晶
  */
+
+
 public class Goods {
-    private Long id;
-    private String type_id;
-    private String barcode;
-    private String name;
-    private Double price;
+   private  Long id;
+   private  long typeId;
+   private  String barCode;
+   private  String name;
+   private  double price;
+   private  String picture;
+   private  String description;
+
+    public Goods() {
+    }
+
+    public Goods(Long id, long typeId, String barCode, String name, double price, String picture, String description) {
+        this.id = id;
+        this.typeId = typeId;
+        this.barCode = barCode;
+        this.name = name;
+        this.price = price;
+        this.picture = picture;
+        this.description = description;
+    }
 
     public Long getId() {
         return id;
@@ -21,20 +36,20 @@ public class Goods {
         this.id = id;
     }
 
-    public String getType_id() {
-        return type_id;
+    public long getTypeId() {
+        return typeId;
     }
 
-    public void setType_id(String type_id) {
-        this.type_id = type_id;
+    public void setTypeId(long typeId) {
+        this.typeId = typeId;
     }
 
-    public String getBarcode() {
-        return barcode;
+    public String getBarCode() {
+        return barCode;
     }
 
-    public void setBarcode(String barcode) {
-        this.barcode = barcode;
+    public void setBarCode(String barCode) {
+        this.barCode = barCode;
     }
 
     public String getName() {
@@ -45,11 +60,40 @@ public class Goods {
         this.name = name;
     }
 
-    public Double getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(Double price) {
+    public void setPrice(double price) {
         this.price = price;
+    }
+
+    public String getPicture() {
+        return picture;
+    }
+
+    public void setPicture(String picture) {
+        this.picture = picture;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    @Override
+    public String toString() {
+        return "Goods{" +
+                "id=" + id +
+                ", typeId=" + typeId +
+                ", barCode='" + barCode + '\'' +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                ", picture='" + picture + '\'' +
+                ", description='" + description + '\'' +
+                '}';
     }
 }

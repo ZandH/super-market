@@ -1,11 +1,11 @@
 ## db.setting文件
 
-url = jdbc:mysql://localhost:3306/db_book?useUnicode=true&characterEncoding=utf-8
+url = jdbc:mysql://localhost:3306/db_supermarket?useUnicode=true&characterEncoding=utf-8
 user = root
 pass = root
 
 ## 可选配置
-# 是否哎日志中显示执行的SQL
+# 是否在日志中显示执行的SQL
 showSql = true
 # 是否格式化显示的SQL
 formatSql = false

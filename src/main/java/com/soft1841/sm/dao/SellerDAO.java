@@ -4,11 +4,6 @@ import com.soft1841.sm.entity.Seller;
 
 import java.sql.SQLException;
 
-/**
- * DAO接口
- * @author 屏儿
- * 2018/12/28
- */
 public interface SellerDAO {
 
     /**
