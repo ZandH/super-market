@@ -6,7 +6,8 @@ import java.util.List;
 
 /**
  * 商品业务逻辑接口
- * @author 杨晶
+ * @author 屏儿
+ * 2018/12/26
  */
 
 public interface GoodsService  {

@@ -11,8 +11,6 @@ import java.util.List;
 
 /**
  * Vip DAO的实现类
- * @author 杨晶
- * 2018-12-27
  */
 
 public class VipDAOImpl implements VipDAO {

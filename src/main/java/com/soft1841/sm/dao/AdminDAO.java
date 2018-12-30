@@ -8,8 +8,6 @@ import java.sql.SQLException;
 
 /**
  * 管理员登陆DAO
- * @author 杨晶
- * 2018-12-24
  */
 
 public interface AdminDAO {

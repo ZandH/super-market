@@ -4,7 +4,6 @@ import java.util.Date;
 
 /**
  *小票实体类
- * @author 杨晶
  */
 
 public class Receipt {

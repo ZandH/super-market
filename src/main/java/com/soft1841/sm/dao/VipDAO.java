@@ -6,8 +6,6 @@ import java.util.List;
 
 /**
  * VIP DAO
- * @author 杨晶
- * 2018-12-27
  */
 
 public interface VipDAO {

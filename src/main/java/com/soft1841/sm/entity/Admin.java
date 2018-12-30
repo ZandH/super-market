@@ -2,7 +2,6 @@ package com.soft1841.sm.entity;
 
 /**
  * 管理员实体类
- * @author 杨晶
  */
 
 public class Admin {
