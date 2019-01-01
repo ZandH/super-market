@@ -9,9 +9,6 @@ import java.util.List;
 public interface DetailDAO {
     /**
      * 新增明细，返回自增主键
-     * @param detail
-     * @return
-     * @throws SQLException
      */
     Long insertDetail(Detail detail) throws SQLException;
 

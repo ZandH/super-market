@@ -6,12 +6,8 @@ import com.soft1841.sm.entity.Goods;
 import java.sql.SQLException;
 import java.util.List;
 
-/**
- * 商品DAO
- *
- * @author 屏儿
- * 2018/12/24
- */
+//商品DAO
+
 
 public interface GoodsDAO {
     /**
@@ -58,7 +54,6 @@ public interface GoodsDAO {
 
     /**
      * 根据商品名关键词模糊查询商品
-     *
      * @param keywords
      * @return
      * @throws SQLException
@@ -67,7 +62,6 @@ public interface GoodsDAO {
 
     /**
      * 根据商品类别查询商品
-     *
      * @param typeId
      * @return
      * @throws SQLException
@@ -76,7 +70,6 @@ public interface GoodsDAO {
 
     /**
      * 根据商品类别统计商品数量
-     *
      * @param typeId
      * @return
      * @throws SQLException

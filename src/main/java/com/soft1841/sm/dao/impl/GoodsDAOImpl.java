@@ -10,19 +10,12 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * 商品DAO的实现类
- *
- * @author 屏儿
- * 2018/12/24
- */
-
 public class GoodsDAOImpl implements GoodsDAO {
 
 
     @Override
     public Long insertGoods(Goods goods) throws SQLException {
-        return Db.use().insertForGeneratedKey(
+        return  Db.use().insertForGeneratedKey(
                 Entity.create("t_goods")
                         .set("type_id", goods.getTypeId())
                         .set("barcode", goods.getBarCode())
@@ -89,7 +82,7 @@ public class GoodsDAOImpl implements GoodsDAO {
         return Db.use().queryNumber("SELECT COUNT(*) FROM t_goods WHERE type_id = ? ", typeId).intValue();
     }
 
-    private Goods convertGoods(Entity entity) {
+    private  Goods convertGoods(Entity entity){
         Goods goods = new Goods();
         goods.setId(entity.getLong("id"));
         goods.setTypeId(entity.getLong("type_id"));
@@ -98,6 +91,6 @@ public class GoodsDAOImpl implements GoodsDAO {
         goods.setPrice(entity.getDouble("price"));
         goods.setPicture(entity.getStr("picture"));
         goods.setDescription(entity.getStr("description"));
-        return goods;
+        return  goods;
     }
 }

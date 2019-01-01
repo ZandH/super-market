@@ -11,6 +11,8 @@ import java.util.List;
 
 /**
  * 类别接口DAO的实现类
+ * @author 杨晶
+ * 2018-12-25
  */
 
 public class TypeDAOImpl implements TypeDAO {

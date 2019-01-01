@@ -6,9 +6,7 @@ import com.soft1841.sm.entity.Admin;
 
 import java.sql.SQLException;
 
-/**
- * 管理员登陆DAO
- */
+
 
 public interface AdminDAO {
     /**
@@ -18,5 +16,4 @@ public interface AdminDAO {
      * @throws SQLException
      */
     Admin getAdminByNumber(String adminNumber)throws SQLException;
-
 }

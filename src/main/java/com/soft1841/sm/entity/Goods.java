@@ -2,8 +2,6 @@ package com.soft1841.sm.entity;
 
 /**
  * 商品实体类
- * @author 屏儿
- * 2018/12/24
  */
 
 
