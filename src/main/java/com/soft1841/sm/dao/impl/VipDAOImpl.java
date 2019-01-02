@@ -11,8 +11,6 @@ import java.util.List;
 
 /**
  * Vip DAO的实现类
- * @author 杨晶
- * 2018-12-27
  */
 
 public class VipDAOImpl implements VipDAO {
@@ -59,8 +57,8 @@ public class VipDAOImpl implements VipDAO {
         vip.setName(entity.getStr("name"));
         vip.setSex(entity.getStr("sex"));
         vip.setMobile(entity.getStr("mobile"));
-        vip.setVipNumber(entity.getStr("vip_number"));
-        vip.setJoinDate(entity.getDate("join_date"));
+        vip.setVipNumber(entity.getStr("vipnumber"));
+        vip.setJoinDate(entity.getDate("joindate"));
         return vip;
 
     }

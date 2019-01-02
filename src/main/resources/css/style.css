@@ -39,16 +39,16 @@
 /*默认主题*/
 .default-theme {
     -fx-background-color: #fff;
-    -fx-border-color: rgb(230, 230, 230);
+    -fx-border-color: rgb(222, 253, 253);
     -fx-text-fill: rgb(110, 110, 110);
 }
 /*深灰色主题*/
 .dark-gray-theme {
-    -fx-background-color: rgb(58, 61, 73);
+    -fx-background-color: rgb(122, 180, 255);
 }
 /*深色主题*/
 .dark-theme {
-    -fx-background-color: rgb(40, 43, 51);
+    -fx-background-color: rgb(222, 253, 253);
 }
 
 /*绿色主题*/
