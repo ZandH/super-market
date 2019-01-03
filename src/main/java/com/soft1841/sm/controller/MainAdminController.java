@@ -37,6 +37,9 @@ public class MainAdminController implements Initializable {
     public  void listVip() throws  Exception{
         switchView("vip.fxml");
     }
+    public  void list() throws  Exception{
+        switchView("goods_analysis.fxml");
+    }
     public  void  web() throws  Exception{
         Stage stage = new Stage();
         WebView webView = new WebView();

@@ -39,33 +39,33 @@
 /*默认主题*/
 .default-theme {
     -fx-background-color: #fff;
-    -fx-border-color: rgb(222, 253, 253);
-    -fx-text-fill: rgb(110, 110, 110);
+    -fx-border-color: rgb(111, 221, 253);
+    -fx-text-fill: rgb(251, 255, 255);
 }
 /*深灰色主题*/
 .dark-gray-theme {
-    -fx-background-color: rgb(122, 180, 255);
+    -fx-background-color: rgb(111, 221, 253);
 }
 /*深色主题*/
 .dark-theme {
-    -fx-background-color: rgb(222, 253, 253);
+    -fx-background-color: rgb(111, 221, 253);
 }
 
 /*绿色主题*/
 .green-theme {
-    -fx-background-color: #009688;
+    -fx-background-color: #b4a9c7;
     -fx-text-fill: #fff;
 }
 
 /*灰色主题*/
 .gray-theme {
-    -fx-background-color: rgb(210, 210, 210);
+    -fx-background-color: rgb(111, 221, 253);
     -fx-text-fill: #fff;
 }
 
 /*警告色主题*/
 .warning-theme {
-    -fx-background-color: rgb(254, 87, 34);
+    -fx-background-color: rgb(254, 181, 154);
     -fx-text-fill: #fff;
 }
 
@@ -77,13 +77,13 @@
 
 /*蓝色主题*/
 .blue-theme {
-    -fx-background-color: rgb(30, 158, 255);
+    -fx-background-color: rgb(136, 212, 255);
     -fx-text-fill: #fff;
 }
 
 /*内容盒子样式，设置一下圆角和内边距*/
 .box {
-    -fx-border-color: rgb(162, 162, 162);
+    -fx-border-color: rgb(122, 180, 255);
     -fx-border-radius: 5px;
     -fx-background-radius: 5px;
     -fx-padding: 5 5 5 5;
@@ -100,9 +100,9 @@
     /*边框色*/
     -fx-border-color: rgb(230, 230, 230);
     /*提示文字颜色*/
-    -fx-prompt-text-fill: rgb(162, 162, 162);
+    -fx-prompt-text-fill: rgb(247, 188, 255);
     /*输入文字颜色*/
-    -fx-text-fill: rgb(110, 110, 110);
+    -fx-text-fill: rgb(139, 255, 203);
     /*边框圆角*/
     -fx-border-radius: 2px;
     -fx-background-radius: 2px;
@@ -131,7 +131,7 @@
 /*复选框样式*/
 .check-box .box {
     -fx-background-color: #fff;
-    -fx-border-color: rgb(230, 230, 230);
+    -fx-border-color: rgb(222, 253, 253);
     -fx-border-radius: 3px;
 }
 
@@ -142,13 +142,13 @@
 
 /*复选框选中后背景色*/
 .check-box:selected .box {
-    -fx-background-color: rgb(95, 184, 120);
+    -fx-background-color: rgb(118, 184, 118);
 }
 
 /*单选按钮样式*/
 .radio-button .radio {
     -fx-background-color: #fff;
-    -fx-border-color: rgb(230, 230, 230);
+    -fx-border-color: rgb(255, 219, 250);
     -fx-border-radius: 100;
 }
 
@@ -159,7 +159,7 @@
 
 /*单选按钮选中后背景色*/
 .radio-button:selected .radio {
-    -fx-background-color: rgb(95, 184, 120);
+    -fx-background-color: rgb(255, 219, 250);
 }
 
 /*表格内容居中显示*/
@@ -171,24 +171,24 @@
 .menu-btn {
     -fx-pref-width: 500px;
     -fx-pref-height: 35px;
-    -fx-background-color: rgb(40, 43, 51);
-    -fx-text-fill: rgb(191, 192, 194);
+    -fx-background-color: rgb(255, 219, 250);
+    -fx-text-fill: rgb(199, 193, 174);
 }
 
 /*左侧导航菜单按钮鼠标悬停效果*/
 .menu-btn:hover {
-    -fx-background-color: rgb(95, 184, 120);
-    -fx-text-fill: #fff;
+    -fx-background-color: rgb(208, 255, 222);
+    -fx-text-fill: #c7c1ae;
 }
 
 /*风琴标题面板字体颜色*/
 .titled-pane {
-    -fx-text-fill: rgb(149, 209, 243);
+    -fx-text-fill: rgb(199, 193, 174);
 }
 
 /*风琴标题面板背景色*/
 .titled-pane > .title {
-    -fx-background-color: rgb(244, 244, 244);
+    -fx-background-color: rgb(111, 221, 253);
     -fx-padding: 30 10 10 10;
 }
 .table-view {
@@ -229,6 +229,15 @@
 #9{
     -fx-background-color: rgb(244, 244, 244);
 }
+
+
+
+
+
+
+
+
+
 
 /*支付宝按钮*/
 .btn-zhifubao{

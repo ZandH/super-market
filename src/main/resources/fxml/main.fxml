@@ -74,7 +74,7 @@
                         <TitledPane alignment="TOP_LEFT" text="财政管理">
                             <VBox styleClass="gray-theme" minHeight="100" spacing="10" >
                                 <Button   styleClass="menu-btn" text="优惠管理" />
-                                <Button  styleClass="menu-btn" text="数据分析" />
+                                <Button  styleClass="menu-btn" text="数据分析"  onAction="#list"/>
                             </VBox>
                         </TitledPane>
                         <TitledPane alignment="TOP_LEFT" text="系统维护">
@@ -91,7 +91,7 @@
                         vbarPolicy="AS_NEEDED" styleClass="default-theme">
                 <StackPane fx:id="mainContainer" styleClass="default-theme" minWidth="1060">
                     <ImageView >
-                        <Image url="/img/background.jpg"/>
+                        <Image url="/img/dahai.jpg"/>
                     </ImageView>
                     <padding>
                         <Insets top="10" left="30" bottom="5" right="10"/>
